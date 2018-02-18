@@ -18,6 +18,8 @@ UPositionReport::UPositionReport()
 void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
+    
+    //testando commit
 	
 
 	// ...
