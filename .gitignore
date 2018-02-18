@@ -1,0 +1,18 @@
+##########################
+# Unreal Generated Files #
+##########################
+*/Binaries
+*/Build
+*/DerivdedDataCache
+*/Intermediate
+*/Saved
+BuldingEscape/BuldingEscapeGame/Content/StarterContent/
+BuldingEscape/BuldingEscapeGame/Intermediate/
+BuldingEscape/BuldingEscapeGame/Binaries/
+BuldingEscape/BuldingEscapeGame/Saved/
+
+##########################
+# VS Generated Files #
+##########################
+
+*.VC.db
