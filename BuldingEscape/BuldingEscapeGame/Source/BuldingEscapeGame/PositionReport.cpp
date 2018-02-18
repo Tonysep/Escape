@@ -10,7 +10,7 @@ UPositionReport::UPositionReport()
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
     
-    UE_LOG(LogTemp, Warning, TEXT("Testando UE4"));
+    
     
 
 	// ...
@@ -21,6 +21,10 @@ UPositionReport::UPositionReport()
 void UPositionReport::BeginPlay()
 {
 	Super::BeginPlay();
+    
+    FString Object = GetOwner()->GetName();
+    UE_LOG(LogTemp, Warning, TEXT("Testando UE4 %s",*Object));
+    
     
     //testando commit
 	
